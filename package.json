@@ -1,0 +1,31 @@
+{
+    "name": "iresults-time",
+    "version": "0.1.4",
+    "description": "Library for working with 'Time of day'",
+    "main": "JavaScript/Time.js",
+    "scripts": {
+        "test": "node_modules/.bin/babel-node --presets es2015 tests/TimeTest.js",
+        "build": "webpack --progress -p",
+        "watch": "webpack --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/iresults/iresults-time.git"
+    },
+    "keywords": [
+        "time"
+    ],
+    "author": "Daniel Corn <cod@iresults.li>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/iresults/iresults-time/issues"
+    },
+    "homepage": "https://github.com/iresults/iresults-time#readme",
+    "devDependencies": {
+        "babel-cli": "^6.22.2",
+        "babel-core": "^6.17.0",
+        "babel-loader": "^6.2.5",
+        "babel-preset-es2015": "^6.16.0",
+        "webpack": "^2.2.0-rc.3"
+    }
+}
